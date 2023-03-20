@@ -1,0 +1,165 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Ubuntu:wght@300&display=swap');*/
+/*one can use pesticide to see css box model in your project*/
+body{
+    font-family:"Montserrat";
+text-align: center;
+}
+/*heading*/
+.section-heading{
+    font-size:3rem;
+    line-height:1.5; 
+}
+/*id title used*/
+#title{
+    background-color: #ff4c68 ;
+    color:#fff;
+    text-align: left;
+}
+/* container fluid is a bootstrap class*/
+.container-fluid{   
+    padding: 3% 15% ;
+}
+
+h1,h2,h3{
+    font-family: "Montserrat-Bold";
+    
+}
+
+    .navbar{
+        padding-bottom:0 0 4.5rem;
+    }
+    .navbar-brand{
+        font-family: "ubuntu";
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    .nav-item{
+        padding: 0 18px;
+    }
+    .nav-link{
+        font-size: 1.2rem;
+        font-family: "Montserrat-Light";
+    }
+    .download-button{
+        margin:5% 3% 5% 0;
+    }
+    .title-image{
+        transform: rotate(25deg);
+        width: 60%;
+        
+        position:absolute;
+
+    }
+    h3{
+        font-family: "Montserrat-bold";
+        font-size: 1.5rem;
+    }
+    .feature-box{
+        text-align: center;
+    }
+    
+    .color{
+        color: #ef8172;
+        align-items: center;
+        }
+    .color:hover{
+        color:#ff4c68
+    }
+    
+    p{
+        color: #8f8f8f;
+        
+    }
+    #features{
+        padding:7% 15%;
+        background-color:#fff;
+        position:relative;
+        z-index:1;
+    }
+    .feature{
+        font-size: 1.5rem;
+    }
+    /*testimonials*/
+
+#testimonials{
+   
+    
+    background-color:#ef8172;
+    color:#fff;
+}
+.testimonial-text{
+    font-size:3rem;
+    line-height:1.5;
+}
+.testimonial-image{
+ width: 10%;
+border-radius:100% ;
+margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+/*press*/
+#press{
+    background-color: #ef8172;
+    
+    padding-bottom: 3%;
+}
+.pics{
+    width: 15%;
+    margin:20px 20px 50px;
+}
+/*PRICING*/
+#pricing{
+    padding:100px;
+}
+.pricing-column{
+    padding:3% 2%;
+}
+.pricing-text{
+    font-size:3rem;
+    line-height:1.5;
+}
+
+
+@media(max-width:1028px){
+#title{
+    text-align: center;
+}
+     .title-image{
+        position: static;
+        transform: rotate(0);
+     }
+    }
+     /*call to action*/
+     #cta{
+       
+        background-color: #ff4c68 ;
+        color:#fff;
+        margin: 20px  ;
+        font-size:3rem;
+        padding:7% 15% ;
+        
+        
+    }
+    .call{
+        font-family: "Montserrat-Black";
+        font-size:3.5rem;
+        line-height:1.5;
+    
+    }
+    .social-icon{
+        margin:20px 10px;
+    }
+    #footer{
+        padding: 7% 15%;
+        
+    }
+/*sections*/
+.colored-section{
+    background-color: #ff4c68;
+    color:#fff;
+}
+.white-section{
+    background-color: #fff;
+}
